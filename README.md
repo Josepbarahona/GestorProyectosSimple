@@ -13,8 +13,8 @@ proyecto.
 ## 💽 Tecnologías Utilizadas
 * **Lenguaje**: Java 
 * **Framework**: Spring Boot 
-* **Gestor de Dependencias**: Maven / Gradle (elegir uno) 
-* **Base de Datos**: (Especificar la BD que usarán, ej: PostgreSQL, MySQL, H2) 
+* **Gestor de Dependencias**:Gradle 
+* **Base de Datos**: (Pendiente elejir BD , ej: PostgreSQL, MySQL, H2) 
 * **Librerías**: 
 * Spring Web
 *  Spring Data JPA 
@@ -30,4 +30,5 @@ proyecto.
 
  ## 👨‍💼Tutor Asignado 
  Erick Adiel Trigueros Jerez
+
 
