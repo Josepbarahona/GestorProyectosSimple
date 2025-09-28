@@ -1,5 +1,32 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# === Archivos de compilación y salida ===
+/build/
+/app/build/
+/out/
 
-# Ignore Gradle build output directory
-build
+# === Configuración específica de IntelliJ IDEA ===
+.idea/
+/*.iml
+*.iws
+
+# === Archivos de Gradle ===
+.gradle/
+/gradle-app.setting
+
+# Wrapper (mantener el jar, ignorar cache)
+!gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# === Logs y temporales ===
+*.log
+*.tmp
+*.swp
+
+# === Archivos compilados ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Archivos del sistema operativo ===
+.DS_Store
+Thumbs.db
