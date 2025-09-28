@@ -22,11 +22,12 @@ proyecto.
 * JUnit 5 (para pruebas unitarias)
 
   ## 🧑‍🤝‍🧑 Equipo de Desarrollo
-PB24007 - Jose Wilfredo Ponce Barahona
-CA24079 - Andrea María Cazun Alarcón
-RR24044 - EILEEN MARISOL Reyes Rodríguez
-CH20040 - María Inés Cruz Henríquez
-MS24013 - Juan Pablo Martínez Santamaría
+* PB24007 - Jose Wilfredo Ponce Barahona
+* CA24079 - Andrea María Cazun Alarcón
+* RR24044 - EILEEN MARISOL Reyes Rodríguez
+* CH20040 - María Inés Cruz Henríquez
+* MS24013 - Juan Pablo Martínez Santamaría
 
  ## 👨‍💼Tutor Asignado 
  Erick Adiel Trigueros Jerez
+
