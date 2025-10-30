@@ -1,0 +1,37 @@
+server:
+  port: 8080
+  # Puerto en el que se ejecuta tu aplicación (http://localhost:8080)
+
+spring:
+  application:
+    name: GestorProyectosSimple
+
+    # Nombre interno de la aplicación
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bd_gestorproyectos?currentSchema=gestor  # Con esquema propio
+    username: proyectos  # Usuario de la base de datos
+    password: 123456     # Contraseña del usuario
+    driver-class-name: org.postgresql.Driver  # Driver JDBC para PostgreSQL
+
+  jpa:
+    hibernate:
+      ddl-auto: update  # Crea o actualiza automáticamente las tablas según las entidades
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect  # Dialecto específico para PostgreSQL
+        format_sql: true  # Formatea las consultas SQL en la consola
+        show_sql: true    # Muestra las consultas SQL ejecutadas en la consola
+    database-platform: org.hibernate.dialect.PostgreSQLDialect  # Plataforma de base de datos usada por Hibernate
+
+  sql:
+    init:
+      mode: always  # Ejecuta scripts SQL de inicialización si existen
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.api.gestorproyectossimple: DEBUG

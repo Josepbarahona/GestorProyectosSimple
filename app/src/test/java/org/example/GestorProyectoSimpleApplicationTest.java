@@ -3,13 +3,12 @@
  */
 package org.example;
 
-import org.api.gestorproyectossimple.App;
+import org.api.gestorproyectossimple.GestorProyectosSimpleApplication;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
-class AppTest {
+class GestorProyectoSimpleApplicationTest {
     @Test void appHasAGreeting() {
-        App classUnderTest = new App();
+        GestorProyectosSimpleApplication classUnderTest = new GestorProyectosSimpleApplication();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
 }
