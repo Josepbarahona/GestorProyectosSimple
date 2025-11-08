@@ -14,7 +14,7 @@ proyecto.
 * **Lenguaje**: Java 
 * **Framework**: Spring Boot 
 * **Gestor de Dependencias**:Gradle 
-* **Base de Datos**: (Pendiente elejir BD , ej: PostgreSQL, MySQL, H2) 
+* **Base de Datos**:  PostgreSQL
 * **Librerías**: 
 * Spring Web
 *  Spring Data JPA 
@@ -30,5 +30,6 @@ proyecto.
 
  ## 👨‍💼Tutor Asignado 
  Erick Adiel Trigueros Jerez
+
 
 
