@@ -15,7 +15,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * Para ejecutar la app:
  *  - Desde IntelliJ: clic derecho → "Run 'GestorProyectosSimpleApplication'"
- *  - O por terminal: ./gradlew bootRun     -espero te funcione...
  */
 @SpringBootApplication
 public class GestorProyectosSimpleApplication {

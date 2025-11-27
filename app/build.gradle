@@ -11,33 +11,39 @@ java {
     sourceCompatibility = '17'
 }
 
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    // Dependencias base
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
 
 
-    // Lombok (para simplificar el código)
+
+    // --- Pruebas ---
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
+    testImplementation 'org.mockito:mockito-core:5.6.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.6.0'
+    testImplementation 'org.junit.platform:junit-platform-launcher:1.10.2'
+
+
+
+runtimeOnly 'org.postgresql:postgresql'
+
+    // Lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testCompileOnly 'org.projectlombok:lombok'
     testAnnotationProcessor 'org.projectlombok:lombok'
 
-
-
-    // Base de datos (elige una)
-    runtimeOnly 'org.postgresql:postgresql'
-    // runtimeOnly 'com.h2database:h2'  // alternativa en memoria
-    // Test
+    // JUnit + Spring Boot Test (incluye todo lo necesario)
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
+test {
+    useJUnitPlatform()   // NECESARIO para levantar JUnit 5
 }

@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4485df-c4f3-4a89-a62b-fcc4f2efa3e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/api/gestorproyectossimple/GestorProyectosSimpleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/api/gestorproyectossimple/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/example/GestorProyectoSimpleApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/api/gestorproyectossimple/GestorProyectosSimpleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/api/gestorproyectossimple/GestorProyectosSimpleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/example/GestorProyectoSimpleApplicationTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -39,6 +41,19 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="GestorProyectosSimple" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GestorProyectosSimple" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GestorProyectosSimple" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -77,23 +92,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.EmpleadoServiceTest.executor": "Run",
+    "Gradle.EmpleadoServiceTest.guardarEmpleado_debeGuardarCorrectamente.executor": "Run",
+    "Gradle.EmpleadoServiceTest.testActualizarEmpleado.executor": "Run",
+    "Gradle.EmpleadoServiceTest.testActualizarNoEncontrado.executor": "Run",
+    "Gradle.EmpleadoServiceTest.testBuscarPorIdEncontrado.executor": "Run",
+    "Gradle.EmpleadoServiceTest.testEliminarEmpleado.executor": "Run",
+    "Gradle.EmpleadoServiceTest.testGuardarEmpleado.executor": "Run",
+    "Gradle.EmpleadoServiceTest.testListarEmpleados.executor": "Run",
+    "Gradle.EmpleadoTest.executor": "Run",
+    "Gradle.EmpleadoTest.testEmpleadoBuilder.executor": "Run",
+    "Gradle.GestorProyectoSimpleApplicationTest.appHasAGreeting.executor": "Run",
+    "Gradle.GestorProyectosSimple [test].executor": "Run",
     "Gradle.GestorProyectosSimple.executor": "Run",
     "Gradle.GestorProyectosSimple:app [:app:org.api.gestorproyectossimple.App.main()].executor": "Run",
     "Gradle.GestorProyectosSimple:app [:app:org.api.gestorproyectossimple.GestorProyectosSimpleApplication.main()].executor": "Run",
+    "Gradle.GestorProyectosSimple:app [bootTestRun].executor": "Run",
+    "Gradle.GestorProyectosSimpleApplicationTests.contextLoads.executor": "Run",
+    "Gradle.GestorProyectosSimpleApplicationTests.executor": "Run",
+    "Gradle.PruebaBasicaTest.executor": "Run",
+    "Gradle.PruebaBasicaTest.funcionaJUnit.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/livvi/Documents/GestorProyectosSimple",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.GestorProyectosSimpleApplication">
     <configuration name="GestorProyectosSimpleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.api.gestorproyectossimple.GestorProyectosSimpleApplication" />
       <module name="GestorProyectosSimple.app.main" />
@@ -107,9 +140,109 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmpleadoServiceTest.testActualizarEmpleado" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;org.api.gestorproyectossimple.EmpleadoServiceTest.testActualizarEmpleado&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmpleadoServiceTest.testActualizarNoEncontrado" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;org.api.gestorproyectossimple.EmpleadoServiceTest.testActualizarNoEncontrado&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmpleadoServiceTest.testBuscarPorIdEncontrado" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;org.api.gestorproyectossimple.EmpleadoServiceTest.testBuscarPorIdEncontrado&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmpleadoServiceTest.testEliminarEmpleado" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;org.api.gestorproyectossimple.EmpleadoServiceTest.testEliminarEmpleado&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GestorProyectosSimpleApplication" />
+        <item itemvalue="Gradle.EmpleadoServiceTest.testEliminarEmpleado" />
+        <item itemvalue="Gradle.EmpleadoServiceTest.testActualizarNoEncontrado" />
+        <item itemvalue="Gradle.EmpleadoServiceTest.testActualizarEmpleado" />
+        <item itemvalue="Gradle.EmpleadoServiceTest.testBuscarPorIdEncontrado" />
       </list>
     </recent_temporary>
   </component>
@@ -129,5 +262,16 @@
       <updated>1761263700794</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/build.gradle</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
