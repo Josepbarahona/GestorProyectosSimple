@@ -22,7 +22,7 @@ class ProyectoServiceTest {
 
     @BeforeEach
     void setUp() {
-        // Inicialización de Mockito (simulación del Repositorio)
+        // Inicialización de Mockito
         proyectoRepository = mock(ProyectoRepository.class);
 
         // Creación del Servicio, inyectando el Mock
