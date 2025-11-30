@@ -15,12 +15,20 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  * Para ejecutar la app:
  *  - Desde IntelliJ: clic derecho → "Run 'GestorProyectosSimpleApplication'"
+<<<<<<< HEAD
+=======
+ *  - O por terminal: ./gradlew bootRun     -espero te funcione...
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
  */
 @SpringBootApplication
 public class GestorProyectosSimpleApplication {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         // Este metodo arranca toda la aplicación Spring Boot.
+=======
+        // Este método arranca toda la aplicación Spring Boot.
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
         SpringApplication.run(GestorProyectosSimpleApplication.class, args);
 
         System.out.println(" Servidor iniciado correctamente en http://localhost:8080");

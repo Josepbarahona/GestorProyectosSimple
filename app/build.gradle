@@ -8,7 +8,13 @@ group = 'org.api.gestorproyectossimple'
 version = '1.0.0'
 
 java {
+<<<<<<< HEAD
     sourceCompatibility = '17'
+=======
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
 }
 
 repositories {
@@ -16,6 +22,7 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
@@ -46,4 +53,30 @@ runtimeOnly 'org.postgresql:postgresql'
 
 test {
     useJUnitPlatform()   // NECESARIO para levantar JUnit 5
+=======
+    // Dependencias base
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    runtimeOnly 'com.h2database:h2'
+
+
+    // Lombok (para simplificar el código)
+    compileOnly 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+    testCompileOnly 'org.projectlombok:lombok:1.18.32'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.32'
+
+
+
+    // Base de datos (elige una)
+    runtimeOnly 'org.postgresql:postgresql'
+    // runtimeOnly 'com.h2database:h2'  // alternativa en memoria
+    // Test
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
 }
