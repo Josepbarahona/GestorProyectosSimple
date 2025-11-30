@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e4485df-c4f3-4a89-a62b-fcc4f2efa3e1" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/org/api/gestorproyectossimple/GestorProyectosSimpleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/org/api/gestorproyectossimple/GestorProyectosSimpleApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/org/example/GestorProyectoSimpleApplicationTest.java" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/org/api/gestorproyectossimple/GestorProyectosSimpleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/api/gestorproyectossimple/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/org/example/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/org/example/GestorProyectoSimpleApplicationTest.java" afterDir="false" />
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +36,15 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+<<<<<<< HEAD
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
         <task path="$PROJECT_DIR$/app">
           <activation />
         </task>
+=======
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
         <projects_view>
           <tree_state>
             <expand>
@@ -46,6 +61,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="GestorProyectosSimple" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
+<<<<<<< HEAD
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -59,6 +75,8 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="GestorProyectosSimple" type="f1a62948:ProjectNode" />
                 <item name="app" type="2d1252cf:ModuleNode" />
+=======
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
@@ -79,9 +97,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
+=======
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kaamos007&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Josepbarahona/GestorProyectosSimple.git&quot;,
+    &quot;accountId&quot;: &quot;932606ee-8907-4ff5-b598-54ef248ba823&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
   <component name="ProjectId" id="34UMSwJQV0ivCL6ayAPn45DJ4ac" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -92,6 +131,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
     "Gradle.EmpleadoServiceTest.executor": "Run",
     "Gradle.EmpleadoServiceTest.guardarEmpleado_debeGuardarCorrectamente.executor": "Run",
     "Gradle.EmpleadoServiceTest.testActualizarEmpleado.executor": "Run",
@@ -112,6 +152,14 @@
     "Gradle.GestorProyectosSimpleApplicationTests.executor": "Run",
     "Gradle.PruebaBasicaTest.executor": "Run",
     "Gradle.PruebaBasicaTest.funcionaJUnit.executor": "Debug",
+=======
+    "Application.GestorProyectosSimpleApplication.executor": "Run",
+    "Gradle.Build GestorProyectosSimpleCopialocal.executor": "Run",
+    "Gradle.GestorProyectosSimple.executor": "Run",
+    "Gradle.GestorProyectosSimple:app [:app:org.api.gestorproyectossimple.App.main()].executor": "Run",
+    "Gradle.GestorProyectosSimple:app [:app:org.api.gestorproyectossimple.GestorProyectosSimpleApplication.main()].executor": "Run",
+    "Gradle.TareaServiceTest.executor": "Run",
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -119,6 +167,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/livvi/Documents/GestorProyectosSimple",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
@@ -130,6 +179,18 @@
     <configuration name="GestorProyectosSimpleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.api.gestorproyectossimple.GestorProyectosSimpleApplication" />
       <module name="GestorProyectosSimple.app.main" />
+=======
+    "last_opened_file_path": "C:/Users/kaamo/OneDrive/Documents/Programacion Orientada a Objetos/Gestor Proyecto/GestorProyectosSimpleCopialocal",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.TareaServiceTest">
+    <configuration name="GestorProyectosSimpleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.api.gestorproyectossimple.GestorProyectosSimpleApplication" />
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.api.gestorproyectossimple.*" />
@@ -140,7 +201,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="EmpleadoServiceTest.testActualizarEmpleado" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+=======
+    <configuration name="TareaServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -153,6 +218,7 @@
           <list>
             <option value=":app:test" />
             <option value="--tests" />
+<<<<<<< HEAD
             <option value="&quot;org.api.gestorproyectossimple.EmpleadoServiceTest.testActualizarEmpleado&quot;" />
           </list>
         </option>
@@ -226,6 +292,9 @@
             <option value=":app:test" />
             <option value="--tests" />
             <option value="&quot;org.api.gestorproyectossimple.EmpleadoServiceTest.testEliminarEmpleado&quot;" />
+=======
+            <option value="&quot;org.api.gestorproyectossimple.service.TareaServiceTest&quot;" />
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
           </list>
         </option>
         <option name="vmOptions" />
@@ -238,18 +307,27 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.GestorProyectosSimpleApplication" />
         <item itemvalue="Gradle.EmpleadoServiceTest.testEliminarEmpleado" />
         <item itemvalue="Gradle.EmpleadoServiceTest.testActualizarNoEncontrado" />
         <item itemvalue="Gradle.EmpleadoServiceTest.testActualizarEmpleado" />
         <item itemvalue="Gradle.EmpleadoServiceTest.testBuscarPorIdEncontrado" />
+=======
+        <item itemvalue="Gradle.TareaServiceTest" />
+        <item itemvalue="Application.GestorProyectosSimpleApplication" />
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+<<<<<<< HEAD
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+=======
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
       </set>
     </attachedChunks>
   </component>
@@ -263,6 +341,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -273,5 +352,28 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GestorProyectosSimpleCopialocal$GestorProyectosSimpleApplication.ic" NAME="GestorProyectosSimpleApplication Coverage Results" MODIFIED="1764485429516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.api.gestorproyectossimple.*</FILTER>
+    </SUITE>
+>>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
   </component>
 </project>

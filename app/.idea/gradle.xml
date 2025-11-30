@@ -5,16 +5,7 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-<<<<<<< HEAD
-=======
-        <option name="gradleJvm" value="openjdk-25" />
->>>>>>> 1db7f60 (feat: Implementación inicial de la API REST, modelos, servicios y corrección de tests unitarios)
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-          </set>
-        </option>
+        <option name="gradleJvm" value="24" />
       </GradleProjectSettings>
     </option>
   </component>
