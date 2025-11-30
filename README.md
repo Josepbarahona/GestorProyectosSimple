@@ -59,7 +59,8 @@ Para ejecutar esta API localmente, se requiere tener instalado el JDK y una inst
 
 ### 🧠 Tutor Asignado
 
-* **Erick Adiel Trigueros Jerez**
+* ** ING. Erick Adiel Trigueros Jerez**
+
 
 
 
